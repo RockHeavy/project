@@ -1,0 +1,131 @@
+/* ************************************************************** */
+/* 
+    Theme Name:                 RockHeavy Theme für MoinMoin
+    File:                       druck.css
+    Copyright:                  Marcel Häfner (mail AT Heavy DOT ch)
+    Website:                    http://rock.heavy.ch/
+    Licence:                    GPL v2 (http://www.gnu.org/licenses/gpl-2.0.txt)
+    Create Date (Initial):      29.08.2010
+*/
+/* ************************************************************** */
+
+
+/* Basic Elemente */
+body {
+        color:              black;
+        background-color:   white;
+}
+p {
+        font-size:          11pt;
+}
+
+
+/* Versteckte Elemente */
+#containerMenu, #logo img, #containerHeaderBackground,  #containerLogin, #containerSearch, #containerLocation, #containerEditbar, .pageline {
+    display:            none;
+}
+
+
+/* Page */
+#page {
+        margin:             10pt;
+}
+#pageinfo {
+        font-size:          8pt;
+        text-align:         right;
+}
+ul#pagelocation {
+    padding-left: 0em;
+    border-bottom:      1px solid black;
+}
+ul#pagelocation li {
+    display:            inline;
+    font-size:          0.75em;
+}
+ul#pagelocation li a{
+    text-decoration:    none;
+    color: black;
+}
+
+ul#pagelocation li:before {
+    content:            " / ";
+}
+ul#pagelocation li:first-child:before {
+    content:            "";
+}
+
+
+/* Footer und Credits */
+#footer {
+        clear:              both;
+        text-align:         center;
+        border-top:         1px solid black;
+        font-size:          8pt;
+}
+ul#credits {
+        list-style-type:    none;
+}
+ul#credits  li {
+        display:            inline;
+}
+ul#credits li:after {
+        content:            "|";
+        padding:            5pt;
+}
+ul#credits li:last-child:after {
+        content:             "";
+}
+
+
+/* Navigation */
+#content .navigation {
+    border:             0.1em solid black;
+    -moz-box-shadow:    0em 0em 2em #101F29;
+}
+
+
+/* Macros */
+.floatingPlayer_gsvb idle_gsvb, .gsc-branding, .alldone_gsvb {
+    display:            none;
+}
+
+.table-of-contents {
+    clear:              right;
+    float:              right;
+    border:             0.1em solid black;
+    width:              40%;
+    padding:            0.25em 0.5em;
+    margin:             0em 0em 1em 1em;
+    -moz-box-shadow:    0em 0em 1em #101F29;
+    box-shadow:         0em 0em 1em #101F29;
+}
+.table-of-contents>p {
+    margin-top:         0em;
+    font-weight:        bold;
+}
+
+
+/* Custom Stuff */
+img.photo, img.foto {
+    max-width:          90%;
+    background-color:   white;
+    padding:            1em;
+    border:             0.3em solid black;
+}
+img.bandlogo {
+    max-width:          95%;
+}
+img.bandfoto, img.bandphoto {
+    max-width:          95%;
+    border:             0.3em solid black;
+}
+img.album {
+    max-width:          50%;
+    float:              right;
+    border:             0.3em solid black;
+    margin:             0em 0em 1em 1em;
+    clear:              right;
+ }
+
+
+

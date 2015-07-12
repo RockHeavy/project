@@ -1,0 +1,40 @@
+/* ************************************************************** */
+/*
+    Theme Name:                 RockHeavy Theme für MoinMoin
+    File:                       projection.css
+    Copyright:                  Marcel Häfner (mail AT Heavy DOT ch)
+    Website:                    http://rock.heavy.ch/
+    Licence:                    GPL v2 (http://www.gnu.org/licenses/gpl-2.0.txt)
+    Create Date (Initial):      30.08.2010
+*/
+/* ************************************************************** */
+
+@import url(screen.css) screen; /* als Basic / Vorlage */
+
+/* ************************************************************** */
+
+html #page {
+    margin:             1em;
+    padding:            0em;
+}
+#content { 
+    margin-top:         0em;
+}
+ul#pagelocation {
+    display:block;
+    padding:            0em 0em 0em 1em;
+    margin:             0em;
+    border-bottom:      1px solid white;
+}
+ul#pagelocation li {
+    display:            inline;
+    margin-right:       2em;
+    font-size:          large;
+}
+ul#pagelocation li:first-child {
+    font-size:          x-large;
+}
+table.navigation {
+    font-size:          large;
+}
+

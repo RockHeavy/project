@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Glam Metal</ShortName>
+    <Description>Use Google to Search on Rock.Heavy.ch</Description>
+    <Tags>Glam Metal Rock Heavy</Tags>
+    <Url type="text/html" method="get"
+      template="http://www.heavy.ch/rock/Glam Metal?action=fullsearch&amp;context=180&amp;value={searchTerms}&amp;fullsearch=Text"/>
+    <OutputEncoding>UTF-8</OutputEncoding> 
+</OpenSearchDescription>
+
